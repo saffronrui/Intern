@@ -1,0 +1,11 @@
+12:02:28 **** Build of configuration Default for project ardupilot ****
+make all 
+make -C ArduPlane sitl
+make[1]: Entering directory '/home/liurr/workspace/ardupilot/ArduPlane'
+../mk/find_tools.mk:85: *** ERROR: cannot find gawk - you may need to install GNU awk.  Stop.
+make[1]: Leaving directory '/home/liurr/workspace/ardupilot/ArduPlane'
+Makefile:18: recipe for target 'plane' failed
+make: *** [plane] Error 2
+
+12:02:28 Build Finished (took 152ms)
+
